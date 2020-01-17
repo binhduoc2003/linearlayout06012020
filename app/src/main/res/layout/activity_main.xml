@@ -5,6 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 <!--Khi tạo view phải có thẻ đóng và mở-->
 <!--Dạng 1:-->
@@ -14,12 +16,14 @@
 <!--    Dạng 2:-->
 <!--    <C/>-->
     <TextView
-        android:paddingTop="10dp"
-        android:paddingLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
+        android:layout_gravity="right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:background="#23E436"
+        android:gravity="bottom|right"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
         android:text="View số 1" />
 </LinearLayout>
